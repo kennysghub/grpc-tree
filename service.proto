@@ -4,6 +4,7 @@ package simple;
 
 service SimpleService {
   rpc SayHello (HelloRequest) returns (HelloResponse);
+  rpc SayGoodBye (GoodbyeRequest) returns (GoodbyeResponse);
 }
 
 message HelloRequest {
@@ -11,5 +12,13 @@ message HelloRequest {
 }
 
 message HelloResponse {
-  string message = 1;
+  string helloMessage = 1;
+}
+
+message GoodbyeRequest {
+  HelloRequest name = 1;
+}
+
+message GoodbyeResponse {
+  string goodbyeMessage = 1;
 }
