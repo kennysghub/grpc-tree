@@ -1,0 +1,23 @@
+{
+  "name": "grpc-tree",
+  "version": "1.0.0",
+  "description": "",
+  "main": "protobuf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kennysghub/grpc-tree.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kennysghub/grpc-tree/issues"
+  },
+  "homepage": "https://github.com/kennysghub/grpc-tree#readme",
+  "dependencies": {
+    "protobufjs": "^7.2.3"
+  }
+}
